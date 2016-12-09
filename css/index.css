@@ -1,0 +1,406 @@
+.b {
+  background-size: 100% 100%;
+}
+html {
+  heoght: 100%;
+}
+body {
+  background: url('../img/bg2.jpg');
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 32rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  transition: all 2s;
+  -moz-transition: all 2s;
+  -webkit-transition: all 2s;
+}
+#main .head {
+  display: ;
+  width: 15rem;
+  height: 5.55rem;
+  background: url('../img/head10.png') no-repeat;
+  background-size: 100% 100%;
+}
+#mainContent {
+  display: ;
+  width: 15rem;
+  height: 15rem;
+  margin-top: -5rem;
+  border-radius: 10%;
+  border: 0.375rem solid #3e5b87;
+  background: #fff;
+  text-align: center;
+  translation: all 1s inifiease;
+}
+#mainContent .btnYes {
+  animation: go 0.5s ease infinite alternate;
+  -webkit-animation: go 0.5s ease infinite alternate;
+}
+#mainContent .btnNo {
+  animation: notice 0.8s linear infinite alternate;
+  -webkit-animation: notice 0.8s linear infinite alternate;
+}
+#mainContent .btnYes a {
+  display: inline-block;
+  width: 6rem;
+  height: 5.625rem;
+}
+#mainContent .btnYes {
+  display: inline-block;
+  width: 5.5rem;
+  height: 5.15rem;
+  margin: 2rem 1.375rem 1.375rem 1.75rem;
+  background: url('../img/yes.png');
+  background-size: 100% 100%;
+}
+#mainContent .btnNo {
+  display: inline-block;
+  width: 4.675rem;
+  height: 2.175rem;
+  background: url('../img/no.png');
+  background-size: 100% 100%;
+}
+#mainContent .man {
+  width: 12.525rem;
+  height: 2.125rem;
+  margin: 2.75rem auto;
+  background: url('../img/head8-1.png') no-repeat;
+  background-size: 100% 100%;
+}
+#content {
+  display: none;
+  width: 15rem;
+  height: 28rem;
+  border: 0.25rem solid #3e5b87;
+  border-radius: 5%;
+  background: #fff;
+}
+#notDare {
+  display: none;
+}
+#notDare div {
+  margin: 0 auto;
+}
+#notDare div:nth-of-type(1) {
+  width: 9.125rem;
+  height: 2.15rem;
+  margin-top: 0.5rem;
+  background: url('../img/pig.png') no-repeat;
+  background-size: 100% 100%;
+}
+#notDare div:nth-of-type(2) {
+  width: 10rem;
+  height: 10rem;
+  background: url('../img/m1.gif') no-repeat;
+  background-size: 100% 100%;
+}
+#notDare div:nth-of-type(3) {
+  width: 7.425rem;
+  height: 1.025rem;
+  margin-bottom: 0.5rem;
+  background: url('../img/dt1.png') no-repeat;
+  background-size: 100% 100%;
+}
+#notDare div:nth-of-type(4) {
+  width: 5.5rem;
+  height: 5.5rem;
+  background: url('../img/pang.png') no-repeat;
+  background-size: 100% 100%;
+  animation: notice 0.8s linear infinite alternate;
+  -webkit-animation: notice 0.8s linear infinite alternate;
+}
+#notDare div:nth-of-type(5) {
+  width: 3.25rem;
+  height: 3.05rem;
+  margin-top: 2rem;
+  border: 10px solid #b54431;
+  border-radius: 50%;
+  background: url('../img/yes.png') no-repeat;
+  background-size: 100% 100%;
+  animation: go 0.5s ease  infinite alternate;
+  -webkit-animation: go 0.5s ease  infinite alternate;
+}
+#dialog {
+  display: none;
+}
+#dialog span {
+  float: right;
+  margin: 0.375rem;
+  display: inline-block;
+  animation: fade 4s ease  alternate;
+  -webkit-animation: fade 4s ease alternate;
+}
+#dialog span:nth-of-type(1) {
+  margin-top: 1.5rem;
+  width: 9.125rem;
+  height: 0.925rem;
+  background: url('../img/t3.png') no-repeat;
+  background-size: 100% 100%;
+}
+#dialog span:nth-of-type(2) {
+  width: 12.325rem;
+  height: 0.95rem;
+  background: url('../img/t2.png') no-repeat;
+  background-size: 100% 100%;
+}
+#dialog span:nth-of-type(3) {
+  width: 13.4rem;
+  height: 0.95rem;
+  background: url('../img/t6.png') no-repeat;
+  background-size: 100% 100%;
+}
+#dialog span:nth-of-type(4) {
+  width: 13.425rem;
+  height: 3.175rem;
+  background: url('../img/t7.png') no-repeat;
+  background-size: 100% 100%;
+}
+#dialog span:nth-of-type(5) {
+  float: left;
+  margin-top: 1.5rem;
+  width: 4.675rem;
+  height: 0.925rem;
+  background: url('../img/t9.png') no-repeat;
+  background-size: 100% 100%;
+}
+#dialog span:nth-of-type(6) {
+  margin-top: 1.5rem;
+  width: 11.225rem;
+  height: 0.9rem;
+  background: url('../img/t0.png') no-repeat;
+  background-size: 100% 100%;
+}
+#dialog span:nth-of-type(7) {
+  margin-top: 1.5rem;
+  float: left;
+  width: 8.15rem;
+  height: 0.95rem;
+  background: url('../img/t11.png') no-repeat;
+  background-size: 100% 100%;
+}
+#dialog span:nth-of-type(8) {
+  float: left;
+  margin-top: 2rem;
+  width: 13.175rem;
+  height: 3.3rem;
+  background: url('../img/t1.png') no-repeat;
+  background-size: 100% 100%;
+  animation: notice 0.5s ease  infinite alternate;
+  -webkit-animation: notice 0.5s ease  infinite alternate;
+}
+#dialog span:nth-of-type(9) {
+  width: 3rem;
+  height: 2.1rem;
+  margin-right: 1.5rem;
+  background: url('../img/go.png') no-repeat;
+  background-size: 100% 100%;
+  animation: go 0.5s ease  infinite alternate;
+  -webkit-animation: go 0.5s ease  infinite alternate;
+}
+#choose {
+  display: none;
+}
+#choose span {
+  float: left;
+  display: inline-block;
+  width: 13.5rem;
+  height: 13.5rem;
+  margin: 0 auto;
+  background: url('../img/m4.gif') no-repeat;
+  background-size: 100% 100%;
+}
+#choose .body {
+  display: inline-block;
+  padding: 0.25rem;
+  margin-left: 1.25rem;
+  margin-bottom: 0.5rem;
+  border: 0.375rem solid #3e5b87;
+  border-radius: 10%;
+  animation: bd 0.5s ease  infinite alternate;
+  -webkit-animation: bd 0.5s ease  infinite alternate;
+}
+#choose .tripe img {
+  width: 4.1rem;
+  height: 1.925rem;
+}
+#choose .leg img {
+  width: 4rem;
+  height: 1.875rem;
+}
+#choose .arm img {
+  width: 4.1rem;
+  height: 1.95rem;
+}
+#choose .back img {
+  width: 3.975rem;
+  height: 1.95rem;
+}
+#choose .tex {
+  width: 9.575rem;
+  height: 2.175rem;
+  margin: 1.5rem auto;
+  background: url('../img/tex.png') no-repeat;
+  background-size: 100% 100%;
+}
+#sport {
+  display: none;
+  text-align: center;
+}
+#sport #title {
+  width: 6.225rem;
+  height: 2rem;
+  margin-top: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#sport .tripetitle {
+  background: url('../img/tripetitle.png') no-repeat;
+  background-size: 100% 100%;
+}
+#sport .legtitle {
+  background: url('../img/legtitle.png') no-repeat;
+  background-size: 100% 100%;
+}
+#sport .armtitle {
+  background: url('../img/armtitle.png') no-repeat;
+  background-size: 100% 100%;
+}
+#sport .backtitle {
+  background: url('../img/backtitle.png') no-repeat;
+  background-size: 100% 100%;
+}
+#sport #pic {
+  width: 13.5rem;
+  height: 13.5rem;
+  margin: 0 auto;
+}
+#sport .tripepic {
+  background: url('../img/d1.gif') no-repeat;
+  background-size: 100% 100%;
+}
+#sport .legpic {
+  background: url('../img/m2.gif') no-repeat;
+  background-size: 100% 100%;
+}
+#sport .armpic {
+  background: url('../img/m3.gif') no-repeat;
+  background-size: 100% 100%;
+}
+#sport .backpic {
+  background: url('../img/m5.gif') no-repeat;
+  background-size: 100% 100%;
+}
+#sport span {
+  display: inline-block;
+}
+#sport .leftIcon,
+#sport .rightIcon {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: -6.5rem;
+}
+#sport .leftIcon {
+  float: left;
+  background: url('../img/return.png') no-repeat;
+  background-size: 100% 100%;
+}
+#sport .rightIcon {
+  float: right;
+  background: url('../img/gogo.png') no-repeat;
+  background-size: 100% 100%;
+}
+#sport div {
+  display: inline-block;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: 0.25rem;
+}
+#sport .error {
+  background: url('../img/error.png') no-repeat;
+  background-size: 100% 100%;
+}
+#sport .right {
+  background: url('../img/right.png') no-repeat;
+  background-size: 100% 100%;
+}
+#sport span:nth-of-type(3) {
+  margin-top: 0.5rem;
+  width: 10rem;
+  height: 3.275rem;
+  background: url('../img/t13.png') no-repeat;
+  background-size: 100% 100%;
+  animation: notice 0.5s linear  infinite alternate;
+  -webkit-animation: notice 0.5s linear  infinite alternate;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes notice {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+@-webkit-keyframes notice {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+@keyframes go {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+@-webkit-keyframes go {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+@keyframes bd {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes bd {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
