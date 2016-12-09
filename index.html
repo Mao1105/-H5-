@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>你敢瘦吗？</title>
+	<script type="text/javascript">
+	    (function(){
+	        var html=document.querySelector('html');
+	        var width=html.getBoundingClientRect().width;
+	        html.style.fontSize=width/18+'px';
+	    })()
+	</script>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+<div id='main'>
+	<audio id='bgmp3' src="MP3/i could be the one.mp3" loop='loop'></audio>
+	<!-- 首页 -->
+	<span class='head'></span>
+	<div id='mainContent'>
+		<div class='btnYes'></div>
+		<div class='btnNo'></div>
+		<div class='man'></div>
+		<div style='font-weight:bold;'>&copy;2016 毛慧雯.版权所有.</div>
+
+	</div>
+	<!-- 内容页 -->
+	<div id='content'>
+			<!-- 错误进入页 -->
+			<div id='notDare'>
+				  <div></div>
+				  <div></div>
+				  <div></div>
+				  <div></div>
+				  <div id='regoBtn'></div>
+			</div>
+			<!-- 运动对话页 -->
+			<div id='dialog'>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<!-- 运动选择页 -->
+			<div id='choose'>
+					<span></span>
+					<div class='body tripe'><img src="img/tripe.png" alt="tripe"></div>
+					<div class='body leg'><img src="img/leg.png" alt="png"></div>
+					<div class='body arm'><img src="img/arm.png" alt="arm"></div>
+					<div class='body back'><img src="img/back.png" alt="back"></div>
+					<div class='tex'></div>
+			</div>
+			<!-- 运动详情页 -->
+			<div  id='sport' >
+				<audio id='rightmp3' src="MP3/facebook.mp3"></audio>
+					<div id='title'></div>
+					<div id='pic'></div>
+					<span class='leftIcon'></span>
+					<span class='rightIcon'></span>
+					<div class='error'></div>
+					<div class='error'></div>
+					<div class='error '></div>
+					<span></span>
+			</div>
+		</div>
+</div>
+<script>
+	var bgmp3=document.getElementById('bgmp3');
+	var btnYes=document.getElementsByClassName('btnYes')[0];
+	var btnNo=document.getElementsByClassName('btnNo')[0];
+	var head=document.getElementsByClassName('head')[0];
+	var mainContent=document.getElementById('mainContent');
+	var oContent=document.getElementById('content');
+	var oNotDare=document.getElementById('notDare');
+	var oDialog=document.getElementById('dialog');
+	btnYes.addEventListener('touchstart',function(){
+		head.style.display='none';
+		mainContent.style.display='none';
+		oContent.style.display='block';
+		oDialog.style.display='block';
+	})
+	btnNo.addEventListener('touchstart',function(){
+		head.style.display='none';
+		mainContent.style.display='none';
+		oContent.style.display='block';
+		oNotDare.style.display='block';
+	})
+</script>
+<script src='js/index.js'></script>
+</body>
+</html>
