@@ -1,4 +1,4 @@
-### demo[【H5游戏】你敢瘦吗？](https://mao1105.github.io/【H5游戏】你敢瘦吗？/)
+### demo[【H5游戏】你敢瘦吗？](https://mao1105.github.io/【H5游戏】你敢瘦吗？/)（请配合手机食用）
 ![QR](https://github.com/Mao1105/-H5-/blob/master/img/QR.png )
 
 花了一天的功夫做了个H5小游戏。
